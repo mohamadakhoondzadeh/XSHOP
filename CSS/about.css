@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "dosis";
+    src: url(../FONT/OpenSans-Italic-VariableFont_wdth\,wght.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "mohamad";
+    src: url(../FONT/OpenSans-VariableFont_wdth\,wght.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: 'italic';
+    src: url(../FONT/HindSiliguri-Light.ttf);
+  }
+  h2{
+    font-family: 'italic';
+  }
+  
+  body {
+     
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+  background-image: url(../PIC/VecteezyWhite-Background-02RD0421-rev-01_generated.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+      
+      
+      
+    }
+
+    
+ 
+    
+    @keyframes shine {
+      0% {
+        background-position: 0;
+      }
+      60% {
+        background-position: 600px;
+      }
+      100% {
+        background-position: 600px;
+      }
+    }
+  ul li a{
+      border-radius: 5px;
+  }
+  ul li a:hover{
+      background-color: orangered;
+  }
+  a{
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 3px;
+    
+  }
+  a:hover{
+    background-color: rgb(47, 248, 255);
+  }
+
+.about-us{
+  margin: 50px;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  
+}  
