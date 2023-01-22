@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "dosis";
+    src: url(../FONT/OpenSans-Italic-VariableFont_wdth\,wght.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "mohamad";
+    src: url(../FONT/OpenSans-VariableFont_wdth\,wght.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: 'italic';
+    src: url(../FONT/HindSiliguri-Light.ttf);
+  }
+
+body {
+   
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+   
+  }
+  h1 {
+    color: hsl(0, 0%, 28%);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  h1 {
+    padding: 30px;
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    text-align: center;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
+ul li a{
+    border-radius: 5px;
+}
+ul li a:hover{
+    background-color: orangered;
+}
+.card{
+   
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(300px, 400px));
+   place-content: center;
+   background-image: url(../PIC/111568-light-orange-blurred-background-vector.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   min-height: 30rem;
+   
+}
+.box{
+    background-color:hsl(0, 0%, 99%);
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 15px;
+    font-family: 'dosis';
+    
+
+}
+.size{
+    color: black;
+    width: 200px;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 0px;
+    font-family: 'mohamad';
+    text-align: center;
+    
+}
+
+.card-product{
+    border: 3px solid rgb(243, 243, 243);
+    width: 20rem;
+    height: 35rem;
+    overflow: hidden;
+    font-size: 16px;
+
+}
+.text-color{
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+a:hover{
+  background-color: rgb(47, 248, 255);
+}
+a{
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 3px;
+}
